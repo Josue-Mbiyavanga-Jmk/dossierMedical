@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <customfonts.MyTextView_Roboto_Regular
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Remplissez les informations de l'identité du malade et passez à l'étape suivante pour compléter d'autres ..."
+        android:textColor="@color/BcGridbis"
+        android:textSize="11.5sp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:paddingLeft="10dp"
+        android:textAlignment="center"
+        android:layout_marginTop="0dp"/>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="13dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="1dp"
+        android:background="@drawable/rect_grid"
+        >
+
+        <EditText
+            style="@style/edit_input_style_app"
+            android:layout_marginLeft="15.5dp"
+            android:hint="Nom"
+            android:inputType="text"
+            android:id="@+id/edt_name"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="13dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/rect_grid"
+        >
+
+        <EditText
+            style="@style/edit_input_style_app"
+            android:layout_marginLeft="15.5dp"
+            android:hint="Postnom"
+            android:inputType="text"
+            android:id="@+id/edt_postname"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="13dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/rect_grid"
+        >
+
+        <EditText
+            style="@style/edit_input_style_app"
+            android:layout_marginLeft="15.5dp"
+            android:hint="Prenom"
+            android:inputType="text"
+            android:id="@+id/edt_firstname"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/rect_grid"
+        android:orientation="vertical">
+
+        <com.toptoche.searchablespinnerlibrary.SearchableSpinner
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="0dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:background="@drawable/square_background"
+            android:spinnerMode="dialog"
+            android:id="@+id/spinner_genre"
+            android:textColor="@color/BcGridbis"
+            android:textSize="15sp"
+            app:hintText="-- Genre -- *"
+
+
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/rect_grid"
+        android:orientation="vertical">
+
+        <com.toptoche.searchablespinnerlibrary.SearchableSpinner
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="0dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:background="@drawable/square_background"
+            android:spinnerMode="dialog"
+            android:id="@+id/spinner_groupe"
+            android:textColor="@color/BcGridbis"
+            android:textSize="15sp"
+            app:hintText="-- Groupe sanguin -- *"
+
+
+            />
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:id="@+id/relative1DateRetarite"
+        android:layout_marginLeft="24.6dp"
+        android:layout_marginRight="24.6dp"
+
+        style="@style/aligne_editext"
+
+        >
+
+        <ImageView
+            android:id="@+id/img_view_icon1Year"
+            style="@style/setting_images_left"
+            android:layout_width="2dp"
+            android:background="@color/BcGridbis"
+            />
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/square_background_grid"
+            android:layout_alignBottom="@+id/img_view_icon1Year"
+            android:layout_toRightOf="@+id/img_view_icon1Year"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="0dp"
+            android:paddingLeft="20dp"
+            android:text="Date de naissance *"
+            android:gravity="center_vertical"
+            android:id="@+id/txt_year"
+            android:textColor="@color/BcGridbis"
+            android:textSize="15sp"
+            android:layout_marginRight="40dp"
+
+            />
+
+        <ImageButton
+            android:id="@+id/bt_year"
+            style="@style/setting_images_fields_left"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginRight="0dp"
+            android:tint="@color/colWhite"
+            app:srcCompat="@drawable/ic_calendar" />
+
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+</LinearLayout>

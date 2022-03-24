@@ -1,0 +1,33 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="512dp"
+    android:height="512dp"
+    android:viewportWidth="64"
+    android:viewportHeight="64">
+  <path
+      android:pathData="m42,21a21,21 0,1 0,21 21,21.024 21.024,0 0,0 -21,-21zM53.625,36.781 L38.625,48.781a1,1 0,0 1,-1.332 -0.074l-7,-7a1,1 0,0 1,1.414 -1.414l6.367,6.367 14.3,-11.441a1,1 0,1 1,1.25 1.562z"
+      android:fillColor="#c4a2fc"/>
+  <path
+      android:pathData="m36,6h-7.184a3,3 0,0 0,-2.816 -2h-2.127a4,4 0,0 0,-7.746 0h-2.127a3,3 0,0 0,-2.816 2h-7.184a3,3 0,0 0,-3 3v39a3,3 0,0 0,3 3h32a3,3 0,0 0,3 -3v-39a3,3 0,0 0,-3 -3zM14,6h3a1,1 0,0 0,1 -1,2 2,0 0,1 4,0 1,1 0,0 0,1 1h3a1,1 0,0 1,0 2h-12a1,1 0,0 1,0 -2zM37,48a1,1 0,0 1,-1 1h-32a1,1 0,0 1,-1 -1v-39a1,1 0,0 1,1 -1h7.184a3,3 0,0 0,2.816 2h12a3,3 0,0 0,2.816 -2h7.184a1,1 0,0 1,1 1z"
+      android:fillColor="#151a6a"/>
+  <path
+      android:pathData="m17,24a1,1 0,0 0,1 1h4a1,1 0,0 0,1 -1v-2.5h2.5a1,1 0,0 0,1 -1v-4a1,1 0,0 0,-1 -1h-2.5v-2.5a1,1 0,0 0,-1 -1h-4a1,1 0,0 0,-1 1v2.5h-2.5a1,1 0,0 0,-1 1v4a1,1 0,0 0,1 1h2.5zM15.5,19.5v-2h2.5a1,1 0,0 0,1 -1v-2.5h2v2.5a1,1 0,0 0,1 1h2.5v2h-2.5a1,1 0,0 0,-1 1v2.5h-2v-2.5a1,1 0,0 0,-1 -1z"
+      android:fillColor="#151a6a"/>
+  <path
+      android:pathData="m12,27h-5a1,1 0,0 0,-1 1v5a1,1 0,0 0,1 1h5a1,1 0,0 0,1 -1v-5a1,1 0,0 0,-1 -1zM11,32h-3v-3h3z"
+      android:fillColor="#151a6a"/>
+  <path
+      android:pathData="m12,37h-5a1,1 0,0 0,-1 1v5a1,1 0,0 0,1 1h5a1,1 0,0 0,1 -1v-5a1,1 0,0 0,-1 -1zM11,42h-3v-3h3z"
+      android:fillColor="#151a6a"/>
+  <path
+      android:pathData="m33,27h-17a1,1 0,0 0,0 2h17a1,1 0,0 0,0 -2z"
+      android:fillColor="#151a6a"/>
+  <path
+      android:pathData="m16,33h10a1,1 0,0 0,0 -2h-10a1,1 0,0 0,0 2z"
+      android:fillColor="#151a6a"/>
+  <path
+      android:pathData="m33,37h-17a1,1 0,0 0,0 2h17a1,1 0,0 0,0 -2z"
+      android:fillColor="#151a6a"/>
+  <path
+      android:pathData="m26,41h-10a1,1 0,0 0,0 2h10a1,1 0,0 0,0 -2z"
+      android:fillColor="#151a6a"/>
+</vector>

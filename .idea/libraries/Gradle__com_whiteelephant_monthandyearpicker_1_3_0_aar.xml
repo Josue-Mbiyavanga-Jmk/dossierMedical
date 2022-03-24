@@ -1,0 +1,24 @@
+<component name="libraryTable">
+  <library name="Gradle: com.whiteelephant:monthandyearpicker:1.3.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3dba2294492cb076c9629ba95bf72bf1/jetified-monthandyearpicker-1.3.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3dba2294492cb076c9629ba95bf72bf1/jetified-monthandyearpicker-1.3.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3dba2294492cb076c9629ba95bf72bf1/jetified-monthandyearpicker-1.3.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/877f6536e6acb46ac2112c0d5fa11ce2/jetified-monthandyearpicker-1.3.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/877f6536e6acb46ac2112c0d5fa11ce2/jetified-monthandyearpicker-1.3.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/877f6536e6acb46ac2112c0d5fa11ce2/jetified-monthandyearpicker-1.3.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/86dae40cb6a5f3e09139c7bcabbd20f3/jetified-monthandyearpicker-1.3.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/86dae40cb6a5f3e09139c7bcabbd20f3/jetified-monthandyearpicker-1.3.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/86dae40cb6a5f3e09139c7bcabbd20f3/jetified-monthandyearpicker-1.3.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c2645c06fe7351fb3eb49e3cae23144c/jetified-monthandyearpicker-1.3.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c2645c06fe7351fb3eb49e3cae23144c/jetified-monthandyearpicker-1.3.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c2645c06fe7351fb3eb49e3cae23144c/jetified-monthandyearpicker-1.3.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.whiteelephant/monthandyearpicker/1.3.0/99e264a272e53e4d9f08d15d837f04abb0791bd0/monthandyearpicker-1.3.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.whiteelephant/monthandyearpicker/1.3.0/8702d8807c2a5a4e2d1dd0dfe596f58ca39a849a/monthandyearpicker-1.3.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

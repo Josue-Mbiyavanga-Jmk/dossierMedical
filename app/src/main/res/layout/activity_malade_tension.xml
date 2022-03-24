@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:background="#FFFFFF">
+
+    <RelativeLayout android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:id="@+id/toobar_custm"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorPrimary"
+        >
+
+
+        <ImageView
+            android:background="@drawable/square_vert_press"
+            android:layout_width="?attr/actionBarSize"
+            android:layout_height="?attr/actionBarSize"
+            android:padding="10dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/bt_back"
+            android:tint="@color/colWhite"
+            app:srcCompat="@drawable/ic_black_navigation"/>
+
+        <TextView
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/bt_back"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:layout_width="wrap_content"
+            android:textColor="@android:color/white"
+            android:text="Nom malade"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:id="@+id/txt_title"
+            />
+
+        <!--<ImageView
+            android:layout_alignParentRight="true"
+            android:background="@drawable/square_vert_press_bis"
+            android:layout_width="?attr/actionBarSize"
+            android:layout_height="?attr/actionBarSize"
+            android:padding="15dp"
+            android:id="@+id/action_signal"
+
+            app:srcCompat="@drawable/ic_signal_donnor"/>
+
+-->
+
+    </RelativeLayout>
+    <View
+        android:background="@color/WhiteColor"
+        android:layout_width="match_parent"
+        android:layout_height="0.2dp"
+        />
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:tabMode="fixed"
+        app:tabGravity="fill"
+        app:tabIndicatorColor="@color/colorPrimaryDark"
+        app:tabIndicatorHeight="4dp"
+        app:tabTextColor="@android:color/white"
+        app:tabBackground="@color/colorPrimary"
+
+        />
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        />
+
+</LinearLayout>

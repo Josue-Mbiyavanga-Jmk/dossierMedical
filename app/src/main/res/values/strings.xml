@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">ANICiiS</string>
+    <string name="volley_network_error">Erreur du réseau</string>
+    <string name="volley_server_error">Erreur du serveur</string>
+    <string name="volley_auth_error">Echec d\'authentification</string>
+    <string name="volley_parse_error">Erreur de parsing</string>
+    <string name="volley_no_connection_error">Aucune connexion</string>
+    <string name="volley_timeout_error">Délai d\'attente depassé</string>
+    <string name="txt_requid">Ce champ est obligatoire</string>
+    <string name="txt_copy_right">© 2020 IDuyaTech. All rights reserved</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="empty_station">Aucune station déjà créée en ce moment. Veuillez pourvoir cliquer sur le bouton flottant avec un plus pour en créer.</string>
+    <string name="empty_produit">Aucun produit ou service déjà créé en ce moment. Veuillez pourvoir cliquer sur le bouton flottant avec un plus pour en créer.</string>
+
+    <!--  pour le numberPicker  02d-->
+    <string name="number_picker_formatter">%ddd</string>
+    <string name="action_settings">Settings</string>
+    <!-- Font -->
+    <string name="roboto_regular">sans-serif</string>
+    <string name="roboto_light">sans-serif-light</string>
+    <string name="roboto_condensed">sans-serif-condensed</string>
+    <string name="roboto_thin">sans-serif-thin</string>
+    <string name="roboto_medium">sans-serif-medium</string>
+
+</resources>

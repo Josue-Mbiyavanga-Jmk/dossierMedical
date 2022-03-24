@@ -1,0 +1,24 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.viethoa:snackbar:1.0.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/266686a3d840c1ba0fcec867e9f0a926/jetified-snackbar-1.0.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/266686a3d840c1ba0fcec867e9f0a926/jetified-snackbar-1.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/266686a3d840c1ba0fcec867e9f0a926/jetified-snackbar-1.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f2ddb559c8c22baad3a06ae5822b4944/jetified-snackbar-1.0.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f2ddb559c8c22baad3a06ae5822b4944/jetified-snackbar-1.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f2ddb559c8c22baad3a06ae5822b4944/jetified-snackbar-1.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1a3a8fedd148949e403176dcb20ead2e/jetified-snackbar-1.0.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1a3a8fedd148949e403176dcb20ead2e/jetified-snackbar-1.0.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1a3a8fedd148949e403176dcb20ead2e/jetified-snackbar-1.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1679785294ce91d0370e1ebf7131454a/jetified-snackbar-1.0.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1679785294ce91d0370e1ebf7131454a/jetified-snackbar-1.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1679785294ce91d0370e1ebf7131454a/jetified-snackbar-1.0.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.viethoa/snackbar/1.0.0/2313d109fab7a1897a8e80f887ac25723359e1ae/snackbar-1.0.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.viethoa/snackbar/1.0.0/30dbacdc28ae517a517a64cbc230e71aad511549/snackbar-1.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
